@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<!--html5 form4 입력 값 체크-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="register.php">
+        <input type="text" name="id" placeholder="id를 입력해주세요" required pattern="[a-zA-Z].+[0-9]"> <!--pattern 안에는 정규표현식이 와야한다-->
+        <input type="email" name="email" placeholder="이메일 입력">
+        <input type="submit">
+    </form>
+
+</body>
+
+</html>

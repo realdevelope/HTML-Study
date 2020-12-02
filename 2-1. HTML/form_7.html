@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<!--label-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="http://localhost/hidden.php">
+        <p>
+            <label for="id_txt">text : </label>
+            <input id="id_txt" type="text" name="id" value="default value">
+        </p>
+        <p>
+            <label for="password">password : </label>
+            <input id="password" type="password" name="pwd" value="default value">
+        </p>
+        <p>
+            <label>textarea :
+                <textarea rows="2">default value</textarea>
+            </label>
+        </p>
+        <p><label>
+                <input type="checkbox" name="color" value="red">붉은색
+            </label>
+            <label for="color_blue" type="checkbox" name="color" value="blue">파란색</label>
+        </p>
+
+    </form>
+</body>
+
+</html>
