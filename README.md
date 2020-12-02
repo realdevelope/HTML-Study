@@ -5,6 +5,3 @@
 ## 학습내용
 
 1. html basic - 생활코딩 - 총 6시간10분   
-
-## 직접 확인해보세요
-<https://kebin0613.github.io/web1-/>
